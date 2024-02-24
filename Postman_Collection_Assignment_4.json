@@ -1,0 +1,168 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Testing Assignment 4",
+    "dateExported": "2024-02-03T16:27:53.615Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "260a85e2-50e7-42c2-b571-a7bbcd519739",
+            "colId": "49b55cc1-4b8f-4c8d-a1f6-8a53bfa7251c",
+            "containerId": "",
+            "name": "Get all favorites",
+            "url": "http://localhost:3000/favorites",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-22T19:18:14.503Z",
+            "modified": "2024-01-22T22:18:42.040Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "607b2642-ab59-4247-b05e-adaaf544ca8b",
+            "colId": "49b55cc1-4b8f-4c8d-a1f6-8a53bfa7251c",
+            "containerId": "",
+            "name": "Add favorites",
+            "url": "http://localhost:3000/favorites",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-01-22T19:18:37.584Z",
+            "modified": "2024-01-22T22:20:16.661Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\"_id\": \"65aeea14df0ded9765e9e8a5\"}, {\"_id\": \"65aeea14df0ded9765e9e8a6\"}]",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "3603623e-4e72-478f-8f9e-96a0991de35f",
+            "colId": "49b55cc1-4b8f-4c8d-a1f6-8a53bfa7251c",
+            "containerId": "",
+            "name": "Update favorite",
+            "url": "http://localhost:3000/favorites",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-01-22T21:40:48.037Z",
+            "modified": "2024-01-22T22:20:47.671Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\"_id\": \"123\"}, {\"_id\": \"1234\"}]",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "11aee086-3e29-4dc8-a9bb-8edfa4a30454",
+            "colId": "49b55cc1-4b8f-4c8d-a1f6-8a53bfa7251c",
+            "containerId": "",
+            "name": "Delete favorites",
+            "url": "http://localhost:3000/favorites",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-01-22T21:41:28.735Z",
+            "modified": "2024-01-22T22:20:58.283Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "e97e7d63-5df3-44a8-9c73-17dcae8b0497",
+            "colId": "95414de4-7a4b-4b28-ada6-79d425e02602",
+            "containerId": "",
+            "name": "Get specific favorite campsite",
+            "url": "http://localhost:3000/favorites/65aeea14df0ded9765e9e8a5",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-22T21:42:29.262Z",
+            "modified": "2024-01-22T22:21:34.731Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "f2e61ead-cdd8-4339-9246-d8ba23ded88f",
+            "colId": "95414de4-7a4b-4b28-ada6-79d425e02602",
+            "containerId": "",
+            "name": "Add favorite campsite",
+            "url": "http://localhost:3000/favorites/65aeea14df0ded9765e9e8a5",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-01-22T21:42:29.263Z",
+            "modified": "2024-01-22T22:21:56.172Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "bec3196a-385a-4436-9491-b50bd2696d7d",
+            "colId": "95414de4-7a4b-4b28-ada6-79d425e02602",
+            "containerId": "",
+            "name": "Update favorite campsite",
+            "url": "http://localhost:3000/favorites/65aeea14df0ded9765e9e8a6.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-01-22T21:42:29.264Z",
+            "modified": "2024-01-22T22:22:11.404Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\"_id\": \"123\"}, {\"_id\": \"1234\"}]",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "aa6f6d32-b320-411a-868b-e1aad87b5c0d",
+            "colId": "95414de4-7a4b-4b28-ada6-79d425e02602",
+            "containerId": "",
+            "name": "Delete favorite campsite",
+            "url": "http://localhost:3000/favorites/65aeea14df0ded9765e9e8a5",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-01-22T21:42:29.265Z",
+            "modified": "2024-01-22T22:22:33.114Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFlZTliMDYwODA2ZmYyNjRjMGY0YjAiLCJpYXQiOjE3MDU5NjE5MDksImV4cCI6MTcwNTk2NTUwOX0.tqRhv_ApvmQJ-YkK0uiRRi5rSzO4cROY2zmlsEgLmDk"
+            },
+            "tests": []
+        }
+    ]
+}
